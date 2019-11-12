@@ -31,7 +31,7 @@
 # }
 
 def naming_system
-  Kingdom = {
+  @Kingdom = {
       :sub_category=> {
       :label=>"Phylum",
       :sub_category=> {
