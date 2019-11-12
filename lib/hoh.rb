@@ -32,13 +32,14 @@
 
 def naming_system
   @Kingdom = {
-      :sub_category=> {
+    :sub_category=> {
       :label=>"Phylum",
       :sub_category=> {
         :label=> "Class",
         :sub_category=> {
           :label=> "Order",
           :sub_category=> {
+            :label=> "Family",
             :sub_category=> {
               :label=> "Genus",
               :sub_category=> {
